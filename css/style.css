@@ -1,0 +1,272 @@
+/*Common CSS Starts*/
+:root{
+--firstcolor : #0f2f44;
+--secondcolor :#222222;
+--font-family : "Ubuntu", sans-serif;
+--second-font : "Open Sans", sans-serif;
+--third-font: "Abril Fatface", serif;
+    
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+width: 1170px;
+margin:auto ;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+ol,ul{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+.align-center{
+align-items: center;
+
+/*Common CSS SEnds*/
+
+/*Nav starts*/
+}
+nav .logo{
+width:30% ;
+}
+nav .menu{
+width: 70%;
+text-align: right;
+}
+nav .menu ul li{
+display: inline-block;
+
+}
+nav .menu ul li a{
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+font-family: var(--font-family);
+color: var(--secondcolor);
+padding: 16px 20px 20px 16px;
+ display: inline-block;
+}
+
+nav .menu ul li a:hover{
+background-color: #fff5d4;
+color: #ffc712;
+padding-bottom: 20px ;
+transform: scale(1.1);
+transition: 1.3s;
+}
+/*Nav starts*/
+
+/*success part starts*/
+#success{
+background-image: url(../css/image/firstbg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-bottom: 70px;   
+}
+
+
+#success .contain h4{
+font-family: var(--font-family);
+font-size: 50px;
+color: var(--firstcolor);
+font-weight: 400;
+padding-top: 60px;
+}
+#success .contain h1{
+font-family: var(--third-font);
+font-size: 80px;
+color: var(--firstcolor);
+font-weight: 400;
+margin-top: -10px;
+}
+#success .contain h3{
+font-family: var(--font-family);
+font-size: 32px;
+color: #8484bf;
+font-weight: 400;
+word-spacing: 10px;
+letter-spacing: 8px;
+margin-top: -10px;
+}
+#success .contain p{
+font-family: var(--second-font);
+font-size: 14px;
+color: var(--secondcolor);
+margin-top: 20px;
+margin-bottom: 40px;
+}
+#success .contain button{
+background-color:#8b8bc2 ;
+padding: 10px;
+margin-right: 20px;
+color:white;
+margin-top: 30px;
+border-radius: 10px;
+box-shadow:  7px 7px 10px #868686,
+-7px -7px 10px #ffffff;
+border: none;
+}
+#success .contain button:hover{
+transform: scale(1.1);
+transition: 1.3s;
+background-color: #7070bd;
+}
+/*success part starts*/
+
+/*about part starts*/
+#about{
+margin-top: 100px;
+}
+#about .abouttext{
+ width: 50%;
+}
+#about .aboutimg{
+width: 50%;
+}
+#about .abouttext p{
+font-family: var(--font-family);
+font-weight: 400px;
+line-height: 200%;
+font-size: 14px;
+color: var(--firstcolor);
+}
+#about .abouttext h4{
+font-family: var(--third-font);
+font-size: 32px;
+font-weight: 400;
+color: var(--firstcolor);
+padding-bottom: 20px;
+}
+#about .abouttext span p{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+#about .abouttext button{
+    padding: 10px;
+    color: var(--firstcolor);
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 10px #868686,
+    -7px -7px 10px #ffffff;
+   border: none;
+}
+#about .abouttext button:hover{
+    background-color: #ffc712;
+    transform: scale(1.1);
+    transition: 1.3s;
+}
+/*about part starts*/
+
+/*skill part starts*/
+#skill .minimaiz{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#skill .skillimg img{
+width: 600px;
+
+}
+#skill .skilltxt{
+   width: 50%;
+   margin-left: 50px;
+   text-align: right;
+}
+#skill .skilltxt p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--firstcolor);
+}
+#skill .skilltxt h4{
+    font-family: var(--third-font);
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--firstcolor);
+    padding-bottom: 30px;
+}
+#skill .skilltxt img{
+    right: 0;
+    left: 0;
+    width: 400px;
+}
+/*skill part Ends*/
+/*Service part starts*/
+#services{
+    background-color: #eeeeee;
+}
+#services .flex{
+    width: 360px;
+    justify-content: space-between;
+   margin-top: 60px;
+   margin-left: 25px;
+   margin-bottom: 50px;
+}
+
+#services .flex:hover{
+    transform: scale(1.1);
+    transition: 1.3s;
+    background-color: #02375a;
+    color: #e0e0e0;
+}
+
+#services .design {
+    box-shadow: 7px 7px 10px #868686,
+    -7px -7px 10px #ffffff;;
+    display: flex;
+    border-radius: 8px;
+}
+
+#services .design span:hover{
+    color: #f1f1f1;
+}
+#services .design h5{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--secondcolor);
+    padding-left: 30px;
+    margin-top: 30px;
+    
+}
+#services .design h5:hover{
+    color: #f1f1f1;
+}
+#services  span{
+    font-family: var(--second-font);
+   font-size: 12px;
+   color: var(--firstcolor);
+   font-weight: 400;
+   margin-top: 20px;
+   display: inline-block;
+   margin-top: 20px;
+}
+#services p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--firstcolor);
+    font-family: var(--font-family);
+   padding-top: 40px;
+}
+#services h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: var(--third-font);
+    font-weight: 400;
+    color:var(--firstcolor);
+}
+/*Service part Ends*/
+
+/*
